@@ -1,0 +1,741 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    padding-left: 100px;
+    padding-right:100px ;
+}
+a{
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+h2{
+    font-size:62px ;
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+h2 span{
+   background-color: #ef77aa;
+   color: white;
+   padding: 2px;
+}
+p{
+    color: #3d3b3c;
+    font-size: 18px;
+    line-height: 30px;
+}
+button{
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color:#f5f5f5 ;
+    color: #9b315d;
+    border: 2px solid #9b315d;
+}
+/* navbar */
+.navHeader{
+    height: 795px;
+    background-image:linear-gradient(rgba(255, 143, 130, 0.103),rgba(255, 185, 180, 0.3)) , url("../image/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    object-fit:cover;
+    background-size:cover;
+}
+.navbar{
+    display: flex;
+    padding-top: 50px;
+   justify-content: space-between;
+    align-items: center;
+}
+.togglerIcon{
+    display: none;
+}
+.logo{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logo h1{
+    font-size: 52px;
+    color: black;
+}
+.logo h1 span{
+  color:#9b315d;
+}
+.navLIst{
+    display: flex;
+    gap: 72px;
+}
+.navLIst li a{
+    font-size: 24px;
+    color: white;
+}
+.navLIst .active a{
+    color: #9b315d;
+}
+.toggler .togglerIcon a{
+    font-size: 24px;
+    color: #9b315d;
+}
+/* nav banner */
+.banner{
+    padding-top:170px;
+    width: 680px;
+    height: 332px;
+    float: right;
+}
+.banner h1{
+    font-size:62px ;
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+.banner h1 span{
+   background-color: #ef77aa;
+   color: white;
+   padding: 5px;
+}
+.banner h2{
+    font-size: 32px;
+    color: #9b315d;
+    padding-bottom: 10px;
+}
+.bannerPara{
+    font-size: 18px;
+    color: #3d3b3c;
+    padding-bottom: 25px;
+    line-height: 20px;
+}
+.banner button{
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color:rgba(255, 143, 130, 0.103);
+    color: #9b315d;
+    border: 2px solid #9b315d;
+}
+/* OUR PHILOSOPHY part*/
+.philosophy-section{
+    height: 700px;
+    background-color:#f5f5f5 ;
+}
+.padingup{
+    padding-top: 40px;
+}
+.text_part h2{
+    padding-bottom: 75px;
+    padding-top: 100px;
+}
+.text_part button{
+    margin-top: 50px;
+}
+.philosophy_div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img_part{
+    margin-top:70px ;
+}
+.img_part img{
+     height: 600px;
+     object-fit: cover;
+}
+/* card_section */
+.card_section{
+    margin-top: 140px;
+}
+.card-div{
+    height: 890px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-div #cards{
+    width: 415px;
+    height: 890px;
+}
+.card-div #cards h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+#cards h3 span{
+    color: #ef77aa;
+}
+#cards .image{
+    margin-bottom: 60px;
+    width: 360px;
+    height: 350px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.card-text{
+    text-align: center;
+}
+.card-text button{
+    margin-top: 60px;
+}
+#cards .image img{
+    padding: 10px;
+    object-fit: contain;
+    border: 2px solid #ef77aa;
+    border-radius: 50%;
+}
+.card-2{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* beginers-section */
+.beginers-section{
+    height: 700px;
+    margin-top: 140px;
+}
+.beginersDiv{
+    display: flex;
+    justify-content:space-between;
+  
+    flex-wrap: wrap;
+}
+.textDiv h2{
+    padding-bottom: 80px;
+}
+.textDiv button{
+    margin-top: 80px;
+}
+/* carousol */
+.carousol-section{
+    height: 350px;
+    background-color:#f5f5f5 ;
+}
+.carousolDiv{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.carousolDiv .right{
+    text-align: center;
+}
+.carousolDiv .left{
+    margin-top: 30px;
+}
+.carousolDiv .right p{
+    font-size: 32px;
+    line-height: 50px;
+}
+/* sing-up part */
+.sing-up{
+    height: 600px;
+}
+.register{
+    text-align: center;
+    margin: auto;
+}
+.sing-upDiv p{
+   font-size: 34px;
+   padding-top: 20px;
+   font-weight: 600;
+}
+.sing-upDiv button{
+    margin-top: 25px;
+}
+.sing-upDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* clsssFees_section */
+.clsssFees_section{
+    height: 500px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.fees-card{
+    height: 500px;
+    width: 400px;
+    background-color: #9b315d;
+}
+.fees-card .text h3{
+    font-size: 28px;
+    color: white;
+    padding-bottom: 20px;
+}
+.text p{
+    color: white;
+}
+.text{
+    padding: 20px;
+
+}
+.text h4{
+    padding-top: 10px;
+}
+.text h4 a{
+    font-size: 18px;
+    color: white;
+    
+}
+.text span{
+padding-top: 45px !important;
+padding-left: 20px;
+}
+.cards{ 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/* <!-- METHODOLOGY part--> */
+.mithology-section{
+    height: 700px;
+}
+.mithology-img img{
+    height: 400px;
+    width: 460px;
+    object-fit: cover;
+    border: 1px solid white;
+    padding:15px ;
+    box-shadow: 0px 19px 38px 0px rgba(0,0,0,0.3);
+}
+.mithology-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* footer-banar */
+
+.footer-banar{
+    height: 450px;
+    background-image:linear-gradient(rgba(5, 1, 1, 0.601),rgba(0, 0, 0, 0.24)) , url("../image/Layer\ 15.png");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size:cover;
+}
+.footer-banar .banarBg-text{
+    color: white;
+    padding-top:160px;
+    padding-left:498px ;
+}
+.banarBg-text h6{
+    font-size: 38px;
+}
+/* footer-2 */
+
+.footer-2{
+    height: 380px;
+    background-color: #9b315d;
+}
+.footer-div{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+.footer-div h3{
+    color: white;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+.footer-div p{
+    color: white;
+    font-family: 400;
+    font-size: 18px;
+}
+.follow span{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 30px;
+}
+.footerPara{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+/* responsive part */
+@media screen and (max-width:1340px){
+    .wrapper{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    h2{
+        font-size:45px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .img_part img{
+        height: 390px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .padingup{
+        padding-top: 20px;
+    }
+    .text_part h2{
+        padding-bottom: 45px;
+        padding-top: 40px;
+    }
+    .text_part button{
+        margin-top: 40px;
+    }
+    .card-div{
+        height: 590px;
+        justify-content:center;
+        gap: 20px;
+    }
+    .card-div #cards h3{
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+    #cards .image{
+        margin-bottom: 30px;
+        width: 205px;
+        height: 200px;
+        margin-left: 52px;
+        margin-top: 10px;
+    }
+    .card-div #cards{
+        width: 305px;
+        height: 590px;
+    }
+    .card-text button{
+        margin-top: 40px;
+    }
+    #cards{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    button{
+        width: 100px;
+        height: 35px;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+    .card_section{
+        margin-top: 50px;
+    }
+    .beginersDiv .imageDiv img{
+       height: 450px;
+       object-fit: cover;
+    }
+    .singup-image img{
+        height:400px ;
+        object-fit: cover;
+    }
+    .sing-up{
+        height: 400px;
+    }
+    .fees-card{
+        height: 400px;
+        width: 340px;
+        background-color: #9b315d;
+    }
+    .fees-card img{
+        height: 150px;
+        object-fit: cover;
+    }
+    .clsssFees_section{
+        height: 400px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .mithology-img img{
+        height: 300px;
+        width: 350px;
+        object-fit: cover;
+    }
+    
+}
+@media screen and (max-width:1190px){
+    
+    .nevText .navLIst .navItems{
+        display: none;
+    }
+    .nevText .toggler{
+        display: block;
+    }
+    .togglerIcon{
+        display:block;
+    }
+    p{
+        font-size: 15px;
+    }
+    .beginersDiv .imageDiv img{
+        height: 400px;
+        object-fit: cover;
+     }
+     .beginers-section{
+        height: 550px;
+    }
+    .cards{ 
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .mithology-section{
+        height: 750px;
+    }
+    .clsssFees_section{
+        height: 820px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .footer-banar{
+        height: 300px;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-size:cover;
+    }
+    .footer-banar .banarBg-text{
+        padding-top:90px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .banarBg-text h6{
+        font-size: 38px;
+    }
+    .footer-div{
+        display: flex;
+        justify-content:space-between;
+        gap: 40px;
+        padding-top: 40px;
+    }
+    .footer-div h3{
+        font-size: 26px;
+    }
+    .follow span{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:1095px){
+    .card_section{
+        height: 1200px;
+      }
+      .carousolDiv .right p{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .carousolDiv .left{
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:991px){
+    .wrapper{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .logo h1{
+        font-size: 35px;
+    }
+    .navbar{
+        padding-top: 30px;
+    }
+    .navHeader{
+        height:635px ;
+    }
+    .banner{
+        padding-top:100px;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+    .philosophy-section{
+        height: 900px;
+    }
+    .philosophy_div{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .textDiv h2{
+        padding-bottom: 40px;
+    }
+    .textDiv button{
+        margin-top: 40px;
+    }
+    .beginersDiv{
+        justify-content:center;
+       align-items: center;
+    }
+    .beginers-section{
+        height: 800px;
+    }
+    .singup-image img{
+        height:300px ;
+        object-fit: cover;
+    }
+    .sing-up{
+        height: 300px;
+    }
+    .sing-upDiv p{
+        font-size: 24px;
+     }
+     .mithology-img img{
+        margin-top: 30px;
+     }
+     .mithology-section{
+        height: 1100px;
+    }
+    .banarBg-text h6{
+        font-size: 24px;
+    }
+    .footer-2{
+        height: 460px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .wrapper{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .navHeader{
+        height: 535px;
+    }
+    .logo img{
+        height: 60px;
+    }
+    .banner{
+        padding-top:50px;
+        width: 400px;
+        height: 332px;
+        float: left;
+    }
+    .banner h1{
+        font-size:40px ;
+        padding-bottom: 5px;
+        font-weight: 400;
+    }
+    .banner button{
+        width: 100px;
+        height: 40px;
+    }
+    .banner p{
+        font-size: 16px;
+    }
+    p{
+        line-height: 20px;
+    }
+    .carousolDiv .right p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .singup-image img{
+        height:270px ;
+        object-fit: cover;
+    }
+    .sing-up{
+        height: 270px;
+    }
+    .clsssFees_section{
+        height: 1220px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width:720px){
+    .card_section{
+        height: 1750px;
+      }
+}
+@media screen and (max-width:565px){
+    .wrapper{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .banner{
+        padding-top:30px;
+        width: 350px;
+        height: 302px;
+    }
+    .navHeader{
+        height: 400px;
+    }
+    .banner h1{
+        font-size:30px ;
+        padding-bottom: 5px;
+        font-weight: 400;
+    }
+    .banner button{
+        width: 100px;
+        height: 40px;
+    }
+    .banner p{
+        font-size: 15px;
+    }
+    h2{
+        font-size:30px ;
+    }
+    .img_part img{
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .padingup{
+        padding-top: 40px;
+    }
+    .text_part h2{
+        padding-bottom: 45px;
+        padding-top: 30px;
+    }
+    .text_part button{
+        margin-top: 30px;
+    }
+    .beginers-section{
+        height: 900px;
+    }
+    .sing-upDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sing-up{
+        height: 470px;
+        margin-top: 25px;
+    }
+    .mithology-section{
+        height: 1150px;
+    }
+    .footer-banar{
+        height: 200px;
+    }
+    .footer-banar .banarBg-text{
+        color: white;
+        padding-top:70px;
+    }
+    .footer-2{
+        height: 540px;
+    }
+    .footerPara{
+        padding-top: 70px;
+    }
+}
